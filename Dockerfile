@@ -2,7 +2,7 @@ FROM tomcat:9.0-jdk17
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
-COPY EDLSystem2.war /usr/local/tomcat/webapps/ROOT.war
+COPY FarmSaathi.war /usr/local/tomcat/webapps/ROOT.war
 
 EXPOSE 8080
 
